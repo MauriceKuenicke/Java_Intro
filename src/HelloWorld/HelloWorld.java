@@ -1,8 +1,6 @@
-import java.io.File;
-
 import edu.duke.FileResource;
 
-public class App {
+public class HelloWorld {
     public void runHello() {
         FileResource f;
         f = new FileResource("file.txt");
@@ -12,7 +10,7 @@ public class App {
     }
 
     public static void main(String[] args) {
-        App hw = new App();
+        HelloWorld hw = new HelloWorld();
         hw.runHello();
     }
 
